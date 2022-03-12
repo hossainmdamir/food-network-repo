@@ -19,15 +19,16 @@ body{
     border-radius: 5px;
     padding: 8px;
 }
-.top-banner {
+/* .top-banner {
     background-image: url(images/shapes/Frame\ 56.jpg);
     background-repeat: no-repeat;
-}
+} */
 section{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .about-me{
     background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
 }
 .half-width img{
     width: 60%;
@@ -37,11 +38,26 @@ section{
 }
 .item-container{
     display: flex;
-    width: 80%%;
+    width: 100%;
 }
 .item-arrange{
     box-shadow: 10px 10px 40px gray;
     border-radius: 8px;
     padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
-
+.item-arrange img{
+    width: 100%;
+}
+.container-img img{
+    width: 40%;
+    margin-left: 250px;
+    padding: 20px;
+}
+.bottom-part{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
